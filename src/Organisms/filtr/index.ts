@@ -1,0 +1,1 @@
+export { Filtr } from "./component";

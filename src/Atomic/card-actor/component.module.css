@@ -1,0 +1,10 @@
+.container {
+    margin-right: 24px;
+}
+
+.img {
+    margin-bottom: 16px;
+    width: 160px;
+    height: 229px;
+    border-radius: 8px;
+}
