@@ -31,9 +31,9 @@ export const Films: FC = () => {
   }
 
   const onChange = (e: ChangeEvent<HTMLInputElement>) => {
+     dispatch(setTitle(e.target.value));
     if (e.target.value !== "") {
       setIsEmpty(true);
-      dispatch(setTitle(e.target.value));
     } else {
       setIsEmpty(false);
     }
