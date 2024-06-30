@@ -1,0 +1,75 @@
+.container {
+    padding: 24px;
+    margin-bottom: 16px;
+    display: flex;
+    border-radius: 8px;
+    background-color: var(--color_white);
+}
+
+.poster {
+    margin-right: 24px;
+    flex-shrink: 0;
+    width: 100px;
+    height: 120px;
+    border-radius: 8px;
+    background-color: rgba(225, 227, 230, 1);
+}
+
+.img {
+    width: 100px;
+    height: 120px;
+    border-radius: 8px;
+}
+
+.title {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--text_main);
+}
+
+.infogenre,
+.infoyear,
+.infodescr {
+    display: flex;
+}
+
+.subtitle {
+    margin-right: 16px;
+    width: 90px;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(171, 171, 171, 1);
+}
+
+.descr {
+    max-width: 600px;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.rating {
+    margin-left: auto;
+    display: flex;
+}
+
+.reit {
+    margin-right: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}

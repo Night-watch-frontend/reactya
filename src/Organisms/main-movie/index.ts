@@ -1,0 +1,1 @@
+export { MainMovie } from "./component";

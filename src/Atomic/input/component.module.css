@@ -1,0 +1,43 @@
+.container {
+    position: relative;
+    width: 400px;
+}
+
+.search {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.input {
+    padding: 12px 36px 12px 36px;
+    margin-bottom: 16px;
+    width: 400px;
+    color: var(--text_main);
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color_white);
+}
+
+.input::placeholder {
+   color: rgba(153, 159, 166, 1)
+}
+
+.input:focus-visible {
+    outline: 1px solid var(--color_orange);
+}
+
+.input:hover {
+    outline: 1px solid rgba(206, 210, 214, 1);
+}
+
+.btn {
+    border: none;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+.btn:hover svg path {
+    fill: var(--color_orange);
+}
